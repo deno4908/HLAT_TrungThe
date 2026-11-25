@@ -1,0 +1,23 @@
+BẢN ĐỒ WEB CHỦ ĐỀ 34
+
+Địa chỉ bản mẫu:
+https://bac-ninh-hlat34-d18cnpm1.cuppedridge7.chatgpt.site
+
+Trạng thái từng đợt cập nhật được ghi tại kiem_thu/sites_deployment.json.
+Bằng chứng kiểm thử bản đã triển khai nằm tại kiem_thu/web_trien_khai.json;
+chỉ dùng bằng chứng có commit_sha khớp đợt triển khai cần kiểm tra.
+Bản mẫu hiện dùng quyền riêng tư
+của chủ sở hữu trên Sites; không phải đường link công khai cho mọi người.
+
+Bản web chạy cục bộ đã được kiểm thử:
+demo/web/MoBanDoWeb.bat (hoặc python serve.py).
+Trong plugin: sau khi phân tích, bấm Xuất bản đồ web… để xuất bộ dữ liệu lần chạy mới.
+
+Nếu cần link công khai để giảng viên/các thành viên mở bằng trình duyệt thông thường,
+có thể đưa toàn bộ demo/web lên hosting tĩnh và giữ đầy đủ các thư mục con.
+
+Công cụ: Leaflet 1.9.4; nền OpenStreetMap. Kéo/zoom, bật/tắt lớp, chọn vùng,
+tìm nhà bằng mã/FID, nhấp thẳng nhà để mở chi tiết và đường dây liên quan.
+Giữ hai bộ khoảng cách A/B để so sánh. Khoanh vùng truy vấn, đo khoảng cách/diện tích,
+xuất GeoJSON và lưu/mở phiên làm việc từ Công cụ GIS. Các lớp phân tích nằm trong gói;
+nền OpenStreetMap cần kết nối Internet.

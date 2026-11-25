@@ -1,0 +1,45 @@
+{
+  "real_data_metrics": {
+    "input_lines": 3160,
+    "valid_lines": 3121,
+    "skipped_lines": 39,
+    "input_houses": 201493,
+    "scanned_houses": 201462,
+    "violation_houses": 1184,
+    "violation_area_m2": 42425.060129499165,
+    "corridor_area_m2": 8968909.533418199,
+    "zone_count": 8,
+    "unassigned_houses": 0,
+    "distances_m": [
+      4.0,
+      3.0,
+      2.0
+    ]
+  },
+  "async_gui_seconds": null,
+  "source_sha256": {
+    "Bo du lieu thuc hanh QGIS nganh dien++ Bac Ninh\\Data Goc\\DuLieuDienLuc\\HienTrangMangLuoiDien\\LuoiDienTrungThe\\DuongDayTrungThe_Noi.CPG": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "Bo du lieu thuc hanh QGIS nganh dien++ Bac Ninh\\Data Goc\\DuLieuDienLuc\\HienTrangMangLuoiDien\\LuoiDienTrungThe\\DuongDayTrungThe_Noi.dbf": "93cf45215f76be3a91515a82bf00eaab39c9a1677e7eee8b9770e845436c0332",
+    "Bo du lieu thuc hanh QGIS nganh dien++ Bac Ninh\\Data Goc\\DuLieuDienLuc\\HienTrangMangLuoiDien\\LuoiDienTrungThe\\DuongDayTrungThe_Noi.prj": "df71a94a49b57da8f97cfb98bcc760031d9efa742bf3c6e7734490358860c6d8",
+    "Bo du lieu thuc hanh QGIS nganh dien++ Bac Ninh\\Data Goc\\DuLieuDienLuc\\HienTrangMangLuoiDien\\LuoiDienTrungThe\\DuongDayTrungThe_Noi.shp": "b8c22742c068d8a3b22739b5c62b1983466725ca94fee050c80d8e45a82187af",
+    "Bo du lieu thuc hanh QGIS nganh dien++ Bac Ninh\\Data Goc\\DuLieuDienLuc\\HienTrangMangLuoiDien\\LuoiDienTrungThe\\DuongDayTrungThe_Noi.shx": "c9e6cc36b7d7898a18d7872aee61d0d226968f7f6bb548cc2fd38043acf152c7",
+    "Bo du lieu thuc hanh QGIS nganh dien++ Bac Ninh\\Data Goc\\DuLieuNenDiaLy\\HaTangDanCu\\KhoiNhaVaNha.CPG": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "Bo du lieu thuc hanh QGIS nganh dien++ Bac Ninh\\Data Goc\\DuLieuNenDiaLy\\HaTangDanCu\\KhoiNhaVaNha.dbf": "d8dfa6007b2168c687fb457a3f9898a6406a92748a2263dfaa04fe238a24fbb8",
+    "Bo du lieu thuc hanh QGIS nganh dien++ Bac Ninh\\Data Goc\\DuLieuNenDiaLy\\HaTangDanCu\\KhoiNhaVaNha.prj": "df71a94a49b57da8f97cfb98bcc760031d9efa742bf3c6e7734490358860c6d8",
+    "Bo du lieu thuc hanh QGIS nganh dien++ Bac Ninh\\Data Goc\\DuLieuNenDiaLy\\HaTangDanCu\\KhoiNhaVaNha.shp": "7ccf4c3ae87cc97854d07d647c27685d4dc060c4a1dc4ff29734d3db3c150c94",
+    "Bo du lieu thuc hanh QGIS nganh dien++ Bac Ninh\\Data Goc\\DuLieuNenDiaLy\\HaTangDanCu\\KhoiNhaVaNha.shx": "9f6f85758dbec6d947f6d0eb237287e00226acfbae0dcd2b9cc4ae0ebb762fec",
+    "Bo du lieu thuc hanh QGIS nganh dien++ Bac Ninh\\Data Goc\\DuLieuDienLuc\\DonViQuanLyDienLuc\\BacNinh2025_KhuVucQLDienLuc.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "Bo du lieu thuc hanh QGIS nganh dien++ Bac Ninh\\Data Goc\\DuLieuDienLuc\\DonViQuanLyDienLuc\\BacNinh2025_KhuVucQLDienLuc.dbf": "580c51f0abcbb963cd29146bf440556576c6222a50fd630dc2891b24bce73669",
+    "Bo du lieu thuc hanh QGIS nganh dien++ Bac Ninh\\Data Goc\\DuLieuDienLuc\\DonViQuanLyDienLuc\\BacNinh2025_KhuVucQLDienLuc.prj": "df71a94a49b57da8f97cfb98bcc760031d9efa742bf3c6e7734490358860c6d8",
+    "Bo du lieu thuc hanh QGIS nganh dien++ Bac Ninh\\Data Goc\\DuLieuDienLuc\\DonViQuanLyDienLuc\\BacNinh2025_KhuVucQLDienLuc.shp": "ed2f82cb3c4da7e5969c589ac93e9aada04759f8d00003d9a3799ea5bcc758f9",
+    "Bo du lieu thuc hanh QGIS nganh dien++ Bac Ninh\\Data Goc\\DuLieuDienLuc\\DonViQuanLyDienLuc\\BacNinh2025_KhuVucQLDienLuc.shx": "528733803be15bd04679945d423053ce1567a89350043d1cb1e125311231975c"
+  },
+  "source_unchanged": true,
+  "checks": [
+    "background task from dialog",
+    "GeoPackage and CSV",
+    "8 regions and baseline",
+    "template PDF",
+    "source SHA256 unchanged"
+  ]
+}

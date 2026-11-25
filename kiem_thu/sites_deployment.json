@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "id": "appgprj_6b059f8e81d08191928f752be200d990~appgdep_a780f0c339ac81919f357817f7209d5e",
+  "project_id": "appgprj_6b059f8e81d08191928f752be200d990",
+  "title": "B?n ?? h?nh lang an to?n l??i ?i?n trung th? B?c Ninh",
+  "version_id": "appgprj_6b059f8e81d08191928f752be200d990~appgver_a2ae926906d08191954d67c073fe88f3",
+  "type": "publish",
+  "status": "succeeded",
+  "publication_stage": "ready",
+  "is_async_publication": true,
+  "url": "https://bac-ninh-hlat34-d18cnpm1.cuppedridge7.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": "sediment://file_000000005aa081f8b4518d2bdc0343df",
+  "provider_deployment_id": "release---b7fa066046348191959e644e6bbd6256",
+  "failure_message": null,
+  "env_set_revision": 0,
+  "updated_at": "2026-11-24T15:50:07.423770+00:00",
+  "commit_sha": "cf8bb58bc82e5740511c365fce3fd25d1335dbe5",
+  "version_number": 3,
+  "access": "owner-private"
+}

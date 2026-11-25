@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "required_files_checked": 36,
+  "plugin_zip_matches_source": true,
+  "source_data_unchanged": true,
+  "qgis_clean_exit": true,
+  "pdf_pages": {
+    "BaoCao_HuongDan_ChuDe34": 15,
+    "ThuyetTrinh_ChuDe34": 17
+  },
+  "metrics": {
+    "input_lines": 3160,
+    "valid_lines": 3121,
+    "skipped_lines": 39,
+    "input_houses": 201493,
+    "scanned_houses": 201462,
+    "violation_houses": 1184,
+    "violation_area_m2": 42425.060129499165,
+    "corridor_area_m2": 8968909.533418199,
+    "zone_count": 8,
+    "unassigned_houses": 0
+  },
+  "web_browser_checks": 22,
+  "deployed_web_checks": 9,
+  "advanced_web_native_cases": [
+    "base",
+    "wide",
+    "mixed",
+    "zone35",
+    "6kv",
+    "empty",
+    "aoi"
+  ],
+  "source_houses_for_comparison": 201462,
+  "gis_browser_checks": 12,
+  "hosting_status": "succeeded",
+  "hosting_source_matches_export": true
+}

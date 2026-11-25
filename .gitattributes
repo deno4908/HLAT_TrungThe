@@ -1,0 +1,10 @@
+# Giữ nguyên byte: ZIP và bằng chứng kiểm thử đối chiếu SHA-256 của tài nguyên.
+* -text
+*.gpkg binary
+*.bin binary
+*.png binary
+*.pdf binary
+*.zip binary
+*.docx binary
+*.pptx binary
+*.qgz binary

@@ -1,0 +1,22 @@
+test_cancel (__main__.AnalysisTests.test_cancel) ... C:\Users\The vinh\Downloads\GIS\ChuDe34_HLAT_TrungThe\tests\test_analysis.py:27: DeprecationWarning: QgsField constructor is deprecated
+  provider.addAttributes([QgsField(name, QVariant.String) for name in fields]); layer.updateFields()
+ok
+test_export_empty_and_no_overwrite (__main__.AnalysisTests.test_export_empty_and_no_overwrite) ... C:\Users\The vinh\Downloads\GIS\ChuDe34_HLAT_TrungThe\plugin\hlat_trungthe_34\storage.py:30: DeprecationWarning: QgsField constructor is deprecated
+  provider.addAttributes([QgsField(n, t) for n, t in fields])
+ok
+test_geographic_output_rejected (__main__.AnalysisTests.test_geographic_output_rejected) ... ok
+test_house_across_two_zones (__main__.AnalysisTests.test_house_across_two_zones) ... ok
+test_overlapping_buffers_not_double_counted (__main__.AnalysisTests.test_overlapping_buffers_not_double_counted) ... ok
+test_overlapping_zones_rejected (__main__.AnalysisTests.test_overlapping_zones_rejected) ... ok
+test_partial_full_and_boundary (__main__.AnalysisTests.test_partial_full_and_boundary) ... ok
+test_processing_interface (__main__.AnalysisTests.test_processing_interface) ... ok
+test_reprojection (__main__.AnalysisTests.test_reprojection) ... ok
+test_unassigned_area_preserved (__main__.AnalysisTests.test_unassigned_area_preserved) ... ok
+test_unknown_voltage_fails (__main__.AnalysisTests.test_unknown_voltage_fails) ... ok
+test_voltage_distance_and_normalization (__main__.AnalysisTests.test_voltage_distance_and_normalization) ... ok
+test_zero_length_skipped (__main__.AnalysisTests.test_zero_length_skipped) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.300s
+
+OK

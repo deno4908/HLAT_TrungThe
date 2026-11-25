@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "url": "https://bac-ninh-hlat34-d18cnpm1.cuppedridge7.chatgpt.site",
+  "checks": [
+    "deployed HTML, JS and data loaded over HTTPS",
+    "1184 houses and 8 management zones",
+    "house search, source data, GEOS worker and related lines on deployed Site",
+    "deployed statistics table",
+    "deployed editable A/B comparison matches independent native reference",
+    "deployed region and voltage filters synchronize map and totals",
+    "deployed direct pointer identification of a non-violation source house",
+    "deployed metric measurement and AOI calculation match native QGIS",
+    "deployed HTML, worker, GIS tools, styles and data exactly match packaged source"
+  ],
+  "page_errors": [],
+  "commit_sha": "cf8bb58bc82e5740511c365fce3fd25d1335dbe5"
+}

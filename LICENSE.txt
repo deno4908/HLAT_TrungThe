@@ -1,0 +1,25 @@
+MIT License - mã nguồn do nhóm chủ đề 34 phát triển
+
+Copyright (c) 2026 Nhóm chủ đề 34 - D18CNPM1
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Dữ liệu, QML, QPT và tài liệu giảng dạy được cung cấp trong bộ môn học giữ nguyên
+nguồn và quyền của bên cung cấp; giấy phép trên chỉ áp dụng cho mã do nhóm viết.
+Leaflet 1.9.4 có giấy phép BSD-2-Clause kèm tại web/vendor/LICENSE.txt.
+GEOS-WASM 3.1.1 / GEOS 3.13.0 dùng LGPL-3.0-or-later; Proj4js 2.12.1 dùng MIT.
+Giấy phép và nguồn các thư viện nằm tại plugin/hlat_trungthe_34/web/vendor/NOTICE.txt
+và các tệp LICENSE tương ứng trong cùng thư mục.

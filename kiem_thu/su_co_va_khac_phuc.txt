@@ -1,0 +1,17 @@
+SỰ CỐ TRONG QUÁ TRÌNH KIỂM THỬ VÀ CÁCH KHẮC PHỤC
+
+1. Script qgis_smoke.py dùng __file__ khi chạy bằng QGIS --code.
+   QGIS thực thi script trong môi trường không cung cấp biến này.
+   Đã chuyển sang đọc đường dẫn --code từ QgsApplication.arguments().
+
+2. QGIS access violation khi script kiểm thử gọi QgsApplication.quit().
+   Đã thay bằng iface.mainWindow().close() để QGIS thực hiện quy trình đóng
+   cửa sổ, plugin, project và canvas. Plugin hủy trực tiếp dialog và các model
+   chọn lớp trên luồng chính khi unload, tránh để deleteLater chạy sau khi
+   QGIS đã dọn cây lớp.
+   Không đánh dấu kiểm thử thành công chỉ vì UI đã chạy: wrapper ngoài tiến
+   trình phải chờ QGIS kết thúc và xác nhận process_exit_code = 0.
+
+Bằng chứng sau sửa: qgis_desktop.json ghi cài ZIP bằng trình cài QGIS thật,
+chạy phân tích nền ngay trong QGIS Desktop, kết quả 1.184 nhà / 42.425,06 m²,
+tắt/bật lại plugin và đóng QGIS bình thường (mã thoát 0).

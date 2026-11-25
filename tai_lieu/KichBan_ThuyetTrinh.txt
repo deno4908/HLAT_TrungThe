@@ -1,0 +1,50 @@
+SLIDE 1
+35 giây. Giới thiệu nhóm, lớp, chủ đề. Nhấn mạnh đây là plugin chạy trong QGIS Desktop. Điền tên nhóm và thành viên trước buổi thi.
+
+SLIDE 2
+45 giây. Đọc theo luồng nghiệp vụ thay vì đọc lại cả đề. Chỉ rõ mỗi yêu cầu đều có đầu vào hoặc đầu ra tương ứng trong plugin.
+
+SLIDE 3
+45 giây. Các lớp đều EPSG:32648. Phân vùng có 17 bản ghi nhưng chỉ dùng 8 vùng Bắc Ninh như project mẫu. Có 39 đường dài 0 và mã nhận dạng trùng; không tự sửa dữ liệu gốc.
+
+SLIDE 4
+40 giây. Chức năng bắt buộc là chọn dữ liệu, tính toán và xuất hai bảng. Các phần bổ sung phục vụ kiểm tra: nạp mẫu, biểu đồ, phóng tới nhà, PDF và nhật ký.
+
+SLIDE 5
+40 giây. Giao diện chỉ điều phối; thuật toán tách riêng để dùng lại trong Processing và kiểm thử. Worker dùng nguồn đặc trưng và hình học riêng, cập nhật UI trên luồng chính.
+
+SLIDE 6
+55 giây. Giải thích công thức bằng một nhà có thể gần hai đường. Nếu không hợp nhất buffer, phần giao có thể bị cộng nhiều lần. Buffer dùng 8 đoạn mỗi góc phần tư, đầu/góc nối tròn.
+
+SLIDE 7
+40 giây. Đây là các điểm dễ hỏi khi bảo vệ. Không nhầm diện tích cả căn nhà với diện tích phần giao. Không giả định mã nguồn là duy nhất.
+
+SLIDE 8
+35 giây. Chỉ ba lớp, trường điện áp và tên vùng. Giải thích khoảng cách mỗi phía; nơi lưu phải là tên mới. Đây là cửa sổ bổ sung, bản đồ chính vẫn là QGIS.
+
+SLIDE 9
+35 giây. Bảng theo vùng, biểu đồ, danh mục. Nhấp đúp nhà để QGIS chọn và phóng tới vị trí. Các lớp kết quả có thể bật tắt từ Layers panel.
+
+SLIDE 10
+35 giây. Phần mở rộng dùng Leaflet và nền OSM. Giữ giao diện bản đồ đơn giản. Lọc vùng và điện áp đồng bộ bản đồ, danh mục, thống kê của A/B. Bộ tính GEOS chạy nền trên CRS mét; chỉ hình học hiển thị chuyển WGS84. Plugin xuất toàn bộ bộ web và dữ liệu để dùng cục bộ hoặc hosting.
+
+SLIDE 11
+40 giây. Tìm FID 73. Đọc cấp điện áp 22 kV, khoảng cách ngắn nhất từ hình học nhà tới đường dây và diện tích giao. Nhấp đường để phóng tới vị trí. Nhấn mạnh diện tích giao riêng từng đường có thể chồng nhau nên không cộng trực tiếp. Các giá trị đã đối chiếu độc lập trong QGIS.
+
+SLIDE 12
+45 giây. A dùng 4/3/2 m, B dùng 6/5/3 m. A có 1.184 nhà, 42.425,06 m²; B có 1.636 nhà, 74.586,37 m²; tăng 452 nhà và 32.161,31 m². B xét toàn bộ 201.462 nhà đầu vào, không chỉ 1.184 nhà ban đầu. Thử bộ lọc KV Kinh Bắc và 35 kV để chứng minh đồng bộ. Đây là mô phỏng tham số bài tập, không thay kết luận kiểm tra hiện trường.
+
+SLIDE 13
+45 giây. Nhấp thẳng nhà để xem thông tin; phóng gần để nhận diện cả nhà nguồn ngoài HLAT. Mở Công cụ GIS, vẽ đường/đa giác, kết thúc để đo theo CRS mét. Khoanh vùng để chỉ thống kê phần giao trong vùng, đồng thời áp dụng cho A/B. Xuất GeoJSON hoặc lưu phiên JSON để mở lại khung nhìn và cấu hình. Nút quay lại riêng đã bỏ; chọn Tất cả vùng quản lý trong danh sách để bỏ lọc vùng.
+
+SLIDE 14
+45 giây. Chỉ đường dây xanh, vùng đệm vàng, nhà vi phạm đỏ nhạt, phần giao đỏ đậm và nhà hiện trạng xám. Phần đỏ đậm mới là diện tích đưa vào thống kê. Template gốc được điều chỉnh cho A3.
+
+SLIDE 15
+45 giây. Đọc tổng 1.184 nhà, 42.425,06 mét vuông. Kinh Bắc lớn nhất. Tổng diện tích các vùng khớp chi tiết; số nhà theo vùng không phải lúc nào cũng cộng thành tổng duy nhất.
+
+SLIDE 16
+45 giây. Nêu ca tính bằng tay cho hình chữ nhật và đối chiếu độc lập với công cụ QGIS. Mở thư mục kiem_thu nếu cần bằng chứng cụ thể. Không chỉ dựa vào ảnh kết quả.
+
+SLIDE 17
+Khoảng 3 phút demo, sau 8–9 phút trình bày nội dung. Điền thành viên theo phân công thực tế, nhóm 5 người gộp phần tài liệu cho các thành viên. Chuẩn bị tên GeoPackage mới trước demo để tránh thông báo không ghi đè. Câu hỏi dự phòng nằm cuối báo cáo.

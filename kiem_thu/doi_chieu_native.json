@@ -1,0 +1,7 @@
+{
+  "method": "QGIS native:buffer (dynamic distance, dissolve) -> native:intersection",
+  "house_count": 1184,
+  "area_m2": 42425.060129499165,
+  "seconds": 9.559426699999676,
+  "passed": true
+}

@@ -1,0 +1,6 @@
+{
+  "command": "python-qgis-ltr.bat tests/test_analysis.py",
+  "exit_code": 0,
+  "passed": true,
+  "test_cases": 13
+}

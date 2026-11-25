@@ -1,0 +1,19 @@
+BẢN ĐỒ WEB CHỦ ĐỀ 34
+Chạy MoBanDoWeb.bat (máy có Python) để mở máy chủ cục bộ.
+Hoặc chạy: python serve.py. Giữ cửa sổ máy chủ khi xem bản đồ.
+Đưa toàn bộ thư mục lên hosting tĩnh để có đường link; giữ cả source/, vendor/ và analysis-worker.js.
+Kéo/zoom; bật tắt lớp góc phải; chọn vùng; tìm nhà bằng FID hoặc mã nhận dạng; nhấp nhà để xem số liệu.
+Nền OpenStreetMap cần Internet; các lớp phân tích và thư viện Leaflet nằm trong thư mục này.
+Mở index.html trực tiếp vẫn xem được lớp phân tích trên nền trắng; dùng HTTP/HTTPS để tải nền OSM.
+Chọn nhà để xem đường dây liên quan: FID, điện áp, khoảng cách từ hình học nhà, diện tích giao từng đường.
+Danh mục / So sánh: nhập khoảng cách A/B rồi bấm Tính. Toàn bộ nhà nguồn được xét, kể cả nhà mới.
+Lọc vùng và điện áp cập nhật đồng bộ bản đồ, danh mục, thống kê và cả hai phương án.
+Kết quả ban đầu từ QGIS; các phương án/lọc mới dùng GEOS-WASM đo trên CRS mét, không đo bằng độ.
+Khoảng cách hỗ trợ 0,001–10.000 m mỗi phía. Phương án rất rộng có thể tính lâu; có nút Hủy.
+Web Worker cần HTTP/HTTPS. Mở file:// chỉ dùng chế độ xem kết quả ban đầu.
+Nhấp thẳng nhà trên bản đồ để xem thông tin. Khi phóng gần (zoom từ 16), nhấp nhà nguồn kể cả ngoài HLAT để nhận diện.
+Chọn Toàn bộ nhà nguồn bên ô tìm kiếm để tra FID/mã cả nhà chưa vi phạm.
+Công cụ GIS: đo khoảng cách/diện tích, khoanh vùng truy vấn; nhấp điểm rồi Kết thúc vẽ. Enter: kết thúc, Esc: hủy.
+Vùng khoanh giới hạn phép tính của A/B, thống kê và danh mục. Bỏ vùng khoanh giữ các tham số khác.
+Xuất GeoJSON theo lớp đang lọc; lưu/mở phiên JSON để giữ khung nhìn, A/B, vùng khoanh và phép đo.
+Vĩ độ/Kinh độ dùng WGS84; phép đo là đo phẳng theo CRS mét của dữ liệu.

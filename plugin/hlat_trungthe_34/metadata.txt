@@ -1,0 +1,15 @@
+[general]
+name=HLAT Trung thế - Chủ đề 34
+description=Giám sát nhà và khối nhà trong hành lang an toàn lưới điện trung thế theo vùng quản lý.
+about=Plugin bài tập nhóm D18CNPM1. Tạo buffer theo cấp điện áp, hợp nhất hành lang, giao cắt nhà và thống kê theo vùng. Ngưỡng khoảng cách do người dùng cấu hình theo đề bài.
+version=1.2.0
+qgisMinimumVersion=3.44
+qgisMaximumVersion=3.99
+author=Nhóm chủ đề 34 - D18CNPM1
+email=
+category=Vector
+icon=icon.svg
+experimental=False
+deprecated=False
+hasProcessingProvider=True
+tags=buffer,intersection,điện lực,hành lang,trung thế,Bắc Ninh

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>HLAT trung thế — cột điện trong hành lang bảo vệ</title>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#123F49"/>
+  <path d="M19 10v44M45 10v44" fill="none" stroke="#6CB8AA" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 4"/>
+  <path d="M30 17h4l2 34h-8z" fill="#F5F7F2"/>
+  <path d="M21 26h22M23 26l9 9 9-9" fill="none" stroke="#F5F7F2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M22 19v7M32 13v7M42 19v7" stroke="#E9B75D" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M13 51h38" stroke="#F5F7F2" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

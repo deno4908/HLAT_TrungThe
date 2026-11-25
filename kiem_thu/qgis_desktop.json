@@ -1,0 +1,13 @@
+﻿{
+    "passed":  true,
+    "checks":  [
+                   "QGIS native Install from ZIP succeeded",
+                   "menu dialog and Processing provider",
+                   "portable project: all layers valid",
+                   "actual QGIS Desktop background analysis: 1184 houses, 42425.06 m2",
+                   "results loaded into actual QGIS map canvas",
+                   "disable and re-enable plugin"
+               ],
+    "phase":  "completed_with_clean_exit",
+    "process_exit_code":  0
+}

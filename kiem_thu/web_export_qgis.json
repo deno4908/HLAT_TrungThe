@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "dialog export button handler",
+    "HTTP server responds",
+    "real data exported",
+    "all source houses and valid lines exported",
+    "analysis worker accessible",
+    "server closed on unload"
+  ]
+}

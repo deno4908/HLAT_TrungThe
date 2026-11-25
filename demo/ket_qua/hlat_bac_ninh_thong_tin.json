@@ -1,0 +1,41 @@
+{
+  "plugin_version": "1.0.0",
+  "created_at": "2026-11-24T21:14:07.209028+07:00",
+  "crs": "EPSG:32648",
+  "area_method": "Diện tích phẳng của hình học trong CRS mét",
+  "buffer_segments_per_quadrant": 8,
+  "parameters": {
+    "lines": "Đường dây trung thế nổi",
+    "houses": "Nhà và khối nhà",
+    "zones": "Phân vùng quản lý điện Bắc Ninh",
+    "voltage_field": "capDienAp",
+    "zone_field": "TenKVQLDL",
+    "distances_m": [
+      4.0,
+      3.0,
+      2.0
+    ],
+    "only_houses": true
+  },
+  "metrics": {
+    "input_lines": 3160,
+    "valid_lines": 3121,
+    "skipped_lines": 39,
+    "input_houses": 201493,
+    "scanned_houses": 201462,
+    "violation_houses": 1184,
+    "violation_area_m2": 42425.060129499165,
+    "corridor_area_m2": 8968909.533418199,
+    "zone_count": 8,
+    "unassigned_houses": 0
+  },
+  "counting": "Mỗi FID nguồn là một nhà/khối nhà. Số nhà giữa các vùng không cộng thành tổng duy nhất.",
+  "model": "Giao hình học 2D có diện tích dương; ngưỡng lấy từ cấu hình bài tập.",
+  "files": {
+    "GPKG": "hlat_bac_ninh.gpkg",
+    "CATALOG": "hlat_bac_ninh_danh_muc.csv",
+    "SUMMARY": "hlat_bac_ninh_thong_ke.csv",
+    "LOG": "hlat_bac_ninh_nhat_ky.csv",
+    "INFO": "hlat_bac_ninh_thong_tin.json"
+  }
+}

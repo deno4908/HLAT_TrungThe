@@ -1,0 +1,11 @@
+Các thư viện chạy hoàn toàn trong trình duyệt, được lưu kèm để không phụ thuộc CDN.
+
+Leaflet 1.9.4: BSD-2-Clause; LICENSE.txt; https://github.com/Leaflet/Leaflet/tree/v1.9.4
+GEOS-WASM 3.1.1: LGPL-3.0-or-later; GEOS-LICENSE.md.
+  Nguồn, công cụ build và API: https://github.com/chrispahm/geos-wasm/tree/v3.1.1
+  Gói npm: https://www.npmjs.com/package/geos-wasm/v/3.1.1
+  GEOS 3.13.0: https://github.com/libgeos/geos/tree/3.13.0
+  geos.js và geos-helpers.js là bản build npm, chỉ đổi đuôi tệp để máy chủ Windows gửi MIME JavaScript.
+  Có thể thay thế các tệp này bằng bản build từ nguồn tương ứng; ứng dụng không sửa GEOS.
+Proj4js 2.12.1: MIT; PROJ4-LICENSE.md; https://github.com/proj4js/proj4js/tree/2.12.1
+  proj4.js: đổi đối số UMD từ this thành globalThis để chạy trong ES module Web Worker.
